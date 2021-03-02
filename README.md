@@ -1,4 +1,4 @@
-# thisisrazakhan.com
+# razakhan.com
 ```
 
 MIT License
@@ -23,3 +23,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+## Made with ❤️ by (Raza Khan)[https://razakhan.netlify.app] 
