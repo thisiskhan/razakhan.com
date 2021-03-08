@@ -859,11 +859,11 @@
             <div class="col-twelve">
 
                 <!-- form -->
-                <form name="contactForm" id="contactForm" method="POST">
+                <form class="kwes-form" name="contactForm" id="contactForm" method="POST" action="https://kwes.io/api/foreign/forms/1uXJ0oBWbth0X4Yu66On">
                     <fieldset>
 
                         <div class="form-field">
-                            <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                            <input name="contactName" type="text" id="contactName" rules="required|max:255" placeholder="Name" value="" minlength="2" required="">
                         </div>
                         <div class="form-field">
                             <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
@@ -875,7 +875,7 @@
                             <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
                         </div>
                         <div class="form-field">
-                            <button class="submitform">Submit</button>
+                            <button type="submit" class="submitform">Submit</button>
                             <div id="submit-loader">
                                 <div class="text-loader">Sending...</div>
                                 <div class="s-loader">
@@ -1003,6 +1003,7 @@
 
     <!-- Java Script
    ================================================== -->
+    <script src="https://kwes.io/v2/kwes-script.js" defer></script>
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
